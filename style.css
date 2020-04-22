@@ -1,0 +1,55 @@
+div {
+    display: block;
+}
+
+#wrapper {
+    width: 840px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/*Header*/
+#header {
+    height: 200px;
+    color: white;
+    background: url(bg.jpg) center no-repeat;
+    position: relative;
+}
+
+#sitename {
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+#slogan {
+    position: absolute;
+    left: 220px;
+    top: 70px;
+}
+/* left*/
+#left{
+    float: left;
+    width: 200px;
+    
+}
+#left img{
+    width: 200px;
+}
+/*right*/
+#right{
+    float: right;
+    width: 600px;
+}
+
+/*footer*/
+#footer{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.clearfix{
+    clear: both;
+}
